@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Facebook" transform="translate(4 4)">
+    <g id="Placeholder" transform="translate(-4 -4)" fill="none" stroke="#7fb283" stroke-width="1">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="23.5" fill="none"/>
+    </g>
+    <g id="Icon_Social_Facebook" data-name="Icon/Social/Facebook" transform="translate(16 13)">
+      <path id="facebook-2" data-name="facebook" d="M5.093,14V7.7h2.04l.333-2.8H5.093V3.536c0-.721.02-1.436,1.094-1.436H7.276V.1A12.831,12.831,0,0,0,5.4,0,2.972,2.972,0,0,0,2.183,3.29V4.9H0V7.7H2.183V14Z" transform="translate(0)" fill="#7fb283"/>
+    </g>
+  </g>
+</svg>
