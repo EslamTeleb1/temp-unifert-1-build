@@ -1,0 +1,12 @@
+@mixin fonts($size, $family, $weight, $style: "") {
+  font: {
+    size: $size;
+    family: $family;
+    weight: $weight;
+    style: $style;
+  }
+}
+
+@mixin shadow($hShadow, $vSahdow, $blur, $color) {
+  box-shadow: $hShadow $vSahdow $blur $color;
+}

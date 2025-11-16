@@ -1,0 +1,120 @@
+@import "variables";
+@import "typography";
+@import "mixins";
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:active,
+a:visited {
+  color: #000;
+}
+li {
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+select {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px 10px;
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    border: none;
+  }
+  option {
+    color: #000;
+  }
+}
+
+button {
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+section {
+  background-color: #fff;
+  // border-bottom: 2px solid $text-color5;
+  position: relative;
+  padding: 10px 25px;
+}
+.head {
+  margin: 1rem 0;
+  h2 {
+    @include fonts(30px, $open-sans-family, $font-weight-bold);
+    color: $main-color;
+  }
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.material-icons {
+  font-family: "Material Icons" !important;
+}
+
+::-webkit-scrollbar {
+  height: 2px; /* height of horizontal scrollbar ← You're missing this */
+  width: 4px; /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary-color;
+}
+
+.btn {
+  height: 45px;
+}
+.btn-secondary {
+  background-color: $secondary-color !important;
+  border-color: $secondary-color !important;
+  outline: none !important;
+  height: 45px;
+}
+
+.add {
+  height: 45px;
+}

@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+$font-size-small1: 12px;
+$font-size-small2: 13px;
+$font-size-middel: 14px;
+$font-size-regular: 15px;
+
+$font-weight-small: 500;
+$font-weight-middle: 700;
+$font-weight-large: 900;
+$font-weight-bold: bold;
+$font-weight-normal: normal;
+
+$open-sans-family: "Open Sans", sans-serif;
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  color: #000;
+}
+* {
+  font-family: inherit;
+}
